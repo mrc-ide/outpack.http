@@ -1,0 +1,19 @@
+Package: outpack.http
+Title: Outpack 'HTTP' Client
+Version: 0.1.0
+Authors@R: c(person("Rich", "FitzJohn", role = c("aut", "cre"),
+                    email = "rich.fitzjohn@gmail.com"),
+             person("Imperial College of Science, Technology and Medicine",
+                    role = "cph"))
+Description: Client for the outpack http api. This package will likely
+    merge into outpack once we work out how to run a server from tests
+    without running up against issues with the R dependency model.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+URL: https://github.com/mrc-ide/outpack.http
+BugReports: https://github.com/mrc-ide/outpack.http/issues
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
