@@ -14,6 +14,10 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 URL: https://github.com/mrc-ide/outpack.http
 BugReports: https://github.com/mrc-ide/outpack.http/issues
+Imports:
+    outpack
 Suggests:
+    outpack.server,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Remotes: mrc-ide/outpack.server
